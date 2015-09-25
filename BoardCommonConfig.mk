@@ -70,7 +70,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BLOCK_BASED_OTA := false
 
 # Hardware tunables
-BOARD_HARDWARE_CLASS := hardware/samsung/cmhw
+BOARD_HARDWARE_CLASS := raja/hardware/samsung_n7100/cmhw
 
 # Graphics
 BOARD_EGL_CFG := device/samsung/smdk4412-common/configs/egl.cfg
