@@ -182,9 +182,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.isUsbOtgEnabled=true
 
 # Include exynos4 platform specific parts
-TARGET_HAL_PATH := hardware/samsung/exynos4/hal
-TARGET_OMX_PATH := hardware/samsung/exynos/multimedia/openmax
-$(call inherit-product, hardware/samsung/exynos4x12.mk)
+TARGET_HAL_PATH := hardware/samsung_n7100/exynos4/hal
+TARGET_OMX_PATH := hardware/samsung_n7100/exynos/multimedia/openmax
+$(call inherit-product, hardware/samsung_n7100/exynos4x12.mk)
 
 # Include non-opensource parts
 $(call inherit-product, vendor/samsung/smdk4412-common/common-vendor.mk)
